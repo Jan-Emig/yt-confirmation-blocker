@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Video Getter",
+    "description": "Blocks YouTube's annoying confirmation popup.",
+    "version": "0.1",
+    "permissions": [
+        "tabs",
+        "scripting",
+        "*://*.youtube.com/watch"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "run_at": "document_end",
+            "js": ["content.js"]
+        }
+    ]
+}
