@@ -2,7 +2,7 @@
 
 ## About
 
-*YouTube Confirmation Blocker* is a lightweight extension for chromium-based browsers to automatically commit YouTube's annoying "Video paused. Resume watching?" popups. 
+*YouTube Confirmation Blocker* is a lightweight extension for chromium-based browsers to automatically commit YouTube's annoying "Video paused. Continue watching?" popups. 
 
 **IMPORTANT: THis extension does not completely remove the popup functionality. It will only commit the popup and resume the current video.**
 
