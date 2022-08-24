@@ -18,8 +18,7 @@ const checkPopupActivity = () => {
         const confirm_btn= document.querySelector<HTMLButtonElement>('.confirm-button');
         if (confirm_btn) confirm_btn.click();
 
-        console.log('Popup commited (:');
-    } else console.log(' - No popup found yet -');
+    }
 }
 
 setInterval(checkPopupActivity, 1000);
